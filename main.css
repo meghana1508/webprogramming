@@ -1,0 +1,125 @@
+body{
+	background-image: url(images/bg.jpeg);
+	font-size:1.3em;
+	font-family: sans-serif;
+	font-style: italic;
+	background-size: cover;
+	color: #ff33ff;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#header{
+	text-align: center;
+	align-content: center;
+	font-family: Arial;
+	font-weight: 750;
+}
+#header_img{
+	width:250px;
+	height:350px;
+	margin-top: -75px;
+	border-radius: 50px;
+	margin-right: 15px;
+	box-shadow: 10px 10px #cceeff;
+	float:right;
+}
+#gsu_photo{
+	width:250px;
+	height:250px;
+	border-radius: 50px;
+	margin-left: 25px;
+	margin-right: 50px;
+	border:1px solid white;
+	box-shadow: 10px 10px #cceeff;
+	float:left;
+}
+#about_myself {
+	width: 60%;
+	margin-right: 50px;
+	margin-left: 250px;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	color: #bbff99;
+}
+.hobbies {
+	color: #bbff99;
+	width: 30%;
+	margin-left: 25px;
+	float: left;
+}
+#hobbies_list li {
+	color: #bbff99;
+}
+.background {
+	color: #bbff99;
+	width: 50%;
+	margin-left: 25px;
+	float: right;
+	margin-bottom: 75px;
+}
+h1 {
+	color: #ff4d88;
+}
+#academics_jobs li {
+	color: #bbff99;
+}
+.college {
+	margin-top: 550px;
+	margin-bottom: 50px;
+	color: #bbff99;
+}
+a:link {
+  color: red;
+}
+#quote {
+	width: 60%;
+	margin-left: 300px;
+	padding: 5px;
+	display: block;
+	border:1px solid white;
+	border-radius: 75px;
+	background: #66ffff;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+table {
+	border: 0;
+	margin-top: 50px;
+	margin: auto;
+	width: 70%;
+}
+caption {
+	margin-bottom: 10px;
+	font-size: 50px;
+	color: #ff4d88;
+}
+table tr:nth-child(odd) {
+   background-color: #b3d9ff;
+}
+table tr:nth-child(even) {
+   background-color: #f2f2f2;
+}
+td {
+	padding: 20px;
+	text-align: center;
+	color: #b35900;
+
+}
+th {
+	padding: 20px;
+	text-align: center;
+	color: black;
+}
+th:first-of-type {
+  border-top-left-radius: 15px;
+}
+th:last-of-type {
+  border-top-right-radius: 15px;
+}
+tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 15px;
+}
+tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 15px;
+}
